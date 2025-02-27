@@ -26,6 +26,8 @@ const data = [
   {
     name: "E-commerce product page",
     skills: ["HTML " + "CSS " + "JAVASCRIPT"],
+    link: "https://cooolcodes.github.io/ecommerce-product-page/",
+    code: "https://github.com/CooolCodes/ecommerce-product-page",
     image:
       "https://res.cloudinary.com/dvydugv8v/image/upload/v1727886879/ebun/desktop-preview_g8tq8y.jpg",
   },
@@ -64,16 +66,16 @@ const data = [
   {
     name: "Pikaso Clone Site",
     skills: ["HTML " + "CSS " + "JAVASCRIPT"],
-    link: "https://cooolcodes.github.io/newsletter-sign-up-form-with-successful-message/",
-    code: "https://github.com/CooolCodes/newsletter-sign-up-form-with-successful-message",
+    link: "https://cooolcodes.github.io/Pikaso-clone/",
+    code: "https://github.com/CooolCodes/Pikaso-clone",
     image:
       "https://res.cloudinary.com/dvydugv8v/image/upload/v1740152948/Screenshot_79_a1rnyn.png",
   },
   {
     name: "Interactive Pricing Component",
     skills: ["HTML " + "CSS " + "JAVASCRIPT"],
-    link: "https://cooolcodes.github.io/newsletter-sign-up-form-with-successful-message/",
-    code: "https://github.com/CooolCodes/newsletter-sign-up-form-with-successful-message",
+    link: "https://cooolcodes.github.io/interactive-pricing-component/",
+    code: "https://github.com/CooolCodes/interactive-pricing-component",
     image:
       "https://res.cloudinary.com/dvydugv8v/image/upload/v1740152935/desktop-design_czjxvd.jpg",
   },
