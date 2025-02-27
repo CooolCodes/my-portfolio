@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap");
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+img {
+  display: block;
+  width: 100%;
+}
+
+body {
+  font-family: "Space Mono", monospace;
+  background-color: #000;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  width: 90%;
+  max-width: 120rem;
+  margin: auto;
+}
+.profile {
+  margin: auto 2rem;
+}
+.profile-image {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  background: url("https://res.cloudinary.com/dvydugv8v/image/upload/v1739873140/WhatsApp_Image_2025-02-15_at_12.47.48_88bf1b52_nliflv.jpg")
+    no-repeat center/cover;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+.name {
+  font-size: 2rem;
+}
+
+.projects_wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1rem));
+  gap: 2rem;
+}
+
+.project {
+  margin-bottom: 1.5rem;
+}
+.project-heading {
+  font-size: 2rem;
+}
+
+.project_image img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+.project_title {
+  font-size: 1.5rem;
+}
+.project_body {
+  padding: 2rem;
+  background: #000;
+}
+
+.project_details {
+  font-size: 1.5rem;
+  color: gray;
+}
+.project_links {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.2rem;
+}
+.viewlinks:hover {
+  border-bottom: 1px solid #0f0;
+}
+@media screen and (min-width: 768px) {
+  .name {
+    font-size: 3rem;
+  }
+  .project-heading {
+    font-size: 3rem;
+  }
+
+  .profile {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+}
